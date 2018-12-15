@@ -1,0 +1,18 @@
+{
+    "data": [
+        "./data/combined_data_1.txt",
+        "./data/combined_data_2.txt",
+        "./data/combined_data_3.txt",
+        "./data/combined_data_4.txt"
+    ],
+    "statefiles": {
+        "dir": "./statefiles/",
+        "data_dict": "./statefiles/data_dict.p",
+        "matrix": "./statefiles/matrix.p",
+        "train": "./statefiles/train.p",
+        "test": "./statefiles/test.p"
+    },
+	"tfr_data_dir": "./data/",
+	"tfr_train_dir": "./data/train/",
+	"tfr_test_dir": "./data/test/"
+}

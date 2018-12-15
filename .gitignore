@@ -2,3 +2,5 @@
 *.pyc
 statefiles/*
 results/*
+data/*
+*.out
