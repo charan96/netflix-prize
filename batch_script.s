@@ -3,8 +3,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=150GB
-#SBATCH --time=9:00:00
+#SBATCH --mem=300GB
+#SBATCH --time=24:00:00
 #SBATCH --job-name=netflix
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END

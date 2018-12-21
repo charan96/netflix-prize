@@ -19,13 +19,13 @@ CONFIG_FILE = "./config.json"
 config = Config(CONFIG_FILE)
 
 
-def set_flags(epochs=10,
+def set_flags(epochs=20,
               batch_size=64,
-              lr=0.001,
+              lr=0.005,
               l2_reg=True,
               decay=0.01,
               num_movies=470758,
-              hidden_neurons=512,
+              hidden_neurons=4096,
               num_users=4499):
     tf.app.flags.DEFINE_string('tf_records_train_path', config.get_tfr_train_data_dir_loc(), 'Path of the training data.')
 
@@ -116,8 +116,7 @@ with tf.Session() as sess:
 
 # ====================================================================
 scratch_dict = OrderedDict()
-scratch_dict['train'] = str(dmatrix_obj.train.shape)
 
-Util.write_data_to_scratch_file(scratch_dict)
+# Util.write_data_to_scratch_file(scratch_dict)
 
 print(time.time() - start)

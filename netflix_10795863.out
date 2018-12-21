@@ -1,0 +1,44 @@
+Lmod has detected the following error: Your site prevents the automatic
+swapping of modules with same name. You must explicitly unload the loaded
+version of "cuda" before you can load the new one. Use swap (or an unload
+followed by a load) to do this:
+
+   $ module swap cuda  cuda/9.0.176
+
+Alternatively, you can set the environment variable
+LMOD_DISABLE_SAME_NAME_AUTOSWAP to "no" to re-enable same name autoswapping. 
+
+While processing the following module(s):
+
+Module fullname             Module Filename
+---------------             ---------------
+cudnn/9.0v7.0.5             /share/apps/modulefiles/cudnn/9.0v7.0.5.lua
+tensorflow/python3.6/1.5.0  /share/apps/modulefiles/tensorflow/python3.6/1.5.0.lua
+learning_rate: 0.005
+batch: 64
+reg: True
+got prepped training and testing data
+made iterators
+got next for all iterators
+made model
+starting session
+epoch_nr: 0, train_loss: 3.826, test_loss: 4.21
+epoch_nr: 1, train_loss: 2.891, test_loss: 3.49
+epoch_nr: 2, train_loss: 3.098, test_loss: 3.51
+epoch_nr: 3, train_loss: 3.064, test_loss: 3.63
+epoch_nr: 4, train_loss: 2.977, test_loss: 3.53
+epoch_nr: 5, train_loss: 2.898, test_loss: 3.47
+epoch_nr: 6, train_loss: 2.643, test_loss: 3.34
+epoch_nr: 7, train_loss: 2.598, test_loss: 3.19
+epoch_nr: 8, train_loss: 2.432, test_loss: 3.23
+epoch_nr: 9, train_loss: 2.492, test_loss: 3.02
+epoch_nr: 10, train_loss: 2.508, test_loss: 2.91
+epoch_nr: 11, train_loss: 2.467, test_loss: 3.019
+epoch_nr: 12, train_loss: 2.398, test_loss: 2.73
+epoch_nr: 13, train_loss: 2.332, test_loss: 2.84
+epoch_nr: 14, train_loss: 2.371, test_loss: 2.53
+epoch_nr: 15, train_loss: 2.309, test_loss: 2.5
+epoch_nr: 16, train_loss: 2.14, test_loss: 2.34
+epoch_nr: 17, train_loss: 2.004, test_loss: 2.19
+epoch_nr: 18, train_loss: 1.834, test_loss: 2.09
+epoch_nr: 19, train_loss: 1.563, test_loss: 1.971

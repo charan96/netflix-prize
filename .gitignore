@@ -3,4 +3,4 @@
 statefiles/*
 results/*
 data/*
-*.out
+outputs/*
